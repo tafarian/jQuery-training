@@ -9,6 +9,7 @@
 
 .tabs .selected {
     background-color: aquamarine;
+    display: block;
 }
 
 .tabs div {
