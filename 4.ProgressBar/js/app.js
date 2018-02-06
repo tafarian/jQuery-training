@@ -5,14 +5,11 @@ $(function() {
     let progressBar = $(".progress-bar");
     console.log(buttons, progressBar);
 
-    function animateProgress($param) {
-    }
-
     buttons.on("click", function() {
         let width = $(this).data("width");
         let number = $(this).data("number");
         let color = $(this).data("color");
-        console.log(width, number, color,)
+        console.log(width, number, color);
 
         if ( number === 1 ) {
             let bar = $("#bar1").find("span");
